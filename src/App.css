@@ -2,9 +2,45 @@
   text-align: center;
 }
 
+.about-title{
+  color:white;
+}
+
+.project{
+  text-align: center;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+.Headers{
+  text-align: center;
+}
+
+.about-body-text{
+  color:black;
+}
+.duckBillsText{
+  align-self: center;
+  align-content: center;
+  align-items: center;
+  color:black;
+  text-align: center;
+}
+
+.cvPdf{
+  display: flex;
+  padding: 5vh;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.item{
+  color:'black' ;
+  padding-right: 5vh;
+  padding-left: 5vh;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,19 +49,27 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navigation-sub {
+  padding-top: 3vh;
+  background-color: #35becc;
+  min-height: 5vh;
+  padding-bottom: 4vh;
+  padding-left: 10vh;
+  padding-right: 10vh;
+
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-around;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
+
 }
 
+
+
 .App-link {
-  color: #61dafb;
+  color: #000000;
 }
 
 @keyframes App-logo-spin {
