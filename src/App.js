@@ -7,6 +7,7 @@ import { BrowserRouter, Route, Link } from 'react-router-dom';
 import Projects from './Projects.js';
 import Articles from './CV.js';
 import About from './About.js';
+import WelcomePage from './WelcomePage.js';
 import './App.css';
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
             </div>
 
           </div>
+          <Route exact path="/ReactWebsite"component={WelcomePage} />
           <Route exact path="/"component={Projects} />
           <Route path="/articles"  component={Articles} />
           <Route path="/about"  component={About} />
